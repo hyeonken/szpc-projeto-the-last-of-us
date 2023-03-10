@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.conteudo{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-evenly;
+}
+
+.informacoes{
+    background-color: blueviolet;
+   
+}
+
+.informacoes .logo{
+    max-width: 350px;
+    filter: invert(1);
+    margin-bottom: 80px;
+}
+
+.informacoes .descricao{
+    width: 49%;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.botoes-carrossel{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes-carrossel .botao{
+    background-color: #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+
+.botoes-carrossel .botao.selecionado{
+    background-color: #1d8346;
+}
+
+.menu-lateral{
+    background-color: aqua;
+    position: fixed;
+    
+
+}
