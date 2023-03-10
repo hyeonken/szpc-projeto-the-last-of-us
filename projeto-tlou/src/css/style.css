@@ -54,6 +54,28 @@ body{
 .menu-lateral{
     background-color: aqua;
     position: fixed;
-    
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.menu-lateral ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15x;
+}
+
+.menu-lateral .icone{
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover{
+    transform: scale(1.2);
+    
 }
